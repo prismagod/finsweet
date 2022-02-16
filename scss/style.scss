@@ -62,3 +62,21 @@ select {
 		scroll-behavior: auto !important;
 	}
 }
+
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	color: #000;
+	font-family: Poppins;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+._container {
+	max-width: 1280px;
+	margin: 0px auto;
+}
