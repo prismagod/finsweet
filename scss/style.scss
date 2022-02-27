@@ -1,3 +1,5 @@
+// ---------------NORMALIZING------------------------------------
+
 *,
 *::before,
 *::after {
@@ -31,6 +33,10 @@ h6 {
 	font-size: inherit;
 }
 
+// ---------------NORMALIZING------------------------------------
+
+// ----------------DEFAULTS--------------------------------------
+
 html,
 body {
 	height: 100%;
@@ -49,8 +55,14 @@ body {
 
 .xcontainer {
 	max-width: 1280px;
+	padding: 0px 15px;
 	margin: 0px auto;
+	box-sizing: content-box;
 }
+
+// ----------------DEFAULTS---------------------------------------
+
+// -----------------HEADER----------------------------------------
 
 .header {
 	background-color: #fff;
@@ -61,44 +73,58 @@ body {
 	z-index: 50;
 }
 
+.header__menu {
+	display: flex;
+}
+
 .header__container {
 	display: flex;
 	min-height: 84px;
 	align-items: center;
 }
 
-.header__menu {
-	display: flex;
-}
-
 .header__logo {
 	margin: 28px 484px 28px 0px;
 }
 
+@media (max-width: 992px) {
+	.header__logo {
+		margin: 28px 244px 28px 0px;
+	}
+}
+
 .menu__list {
 	display: inline-flex;
+	flex-wrap: wrap;
 	white-space: nowrap;
 	font-weight: 600;
-	margin: 30px 0px;
-	line-height: 24px;
+	margin: 33px 0px;
 }
 
 .menu__item {
-	margin-right: 32px;
+	margin: 0px 32px 0px 0px;
 }
 
 .menu__link {
 	color: #394149;
+	line-height: calc(24 / 14 * 100%);
 }
 
 .header__button {
 	background-color: rgba(245, 138, 7, 0.1);
 	white-space: nowrap;
-	line-height: 17px;
-	padding: 18px 35px;
+	line-height: 106.5%;
+	max-width: 173px;
+	max-height: 52px;
+	padding: 18px 32px 17px 32px;
 	border-radius: 31px;
-	margin: 16px 0px 16px 10px;
+	margin: 20px 0px 20px 41px;
 	color: #f58a07;
 	font-size: 16px;
 	font-weight: 600;
+	letter-spacing: 0.03em;
 }
+
+// -----------------HEADER----------------------------------------
+
+//
