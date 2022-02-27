@@ -87,12 +87,6 @@ body {
   .header__logo {
     margin: 27px 244px 28px 0px;
   }
-  .header__menu {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 
 .menu__list {
