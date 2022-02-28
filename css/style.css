@@ -61,20 +61,6 @@ body {
   margin: 0px auto;
 }
 
-.xibg {
-  position: relative;
-}
-
-.xibg img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .header {
   background-color: #fff;
   position: absolute;
@@ -161,11 +147,8 @@ body {
 }
 
 .main-block__image {
-  position: absolute;
-  width: 995px;
-  height: 618px;
-  top: 169px;
-  left: 792px;
+  background-image: url(/img/mainblock/cover.jpg);
+  background-size: cover;
 }
 
 .main-block__body {
