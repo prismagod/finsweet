@@ -164,7 +164,7 @@ body {
 .main-block {
 	position: relative;
 	background: #DCEAF5;
-	max-height: 703px;
+	min-height: 703px;
 
 }
 
@@ -173,13 +173,41 @@ body {
 }
 
 .main-block__image {
+	position: absolute;
+	top: 144px;
+	left: 857px;
+	z-index: 4;
+}
 
+.main-block__first-orange {
+	position: absolute;
+	width: 181px;
+	height: 370px;
+	top: 419px;
+	left: 1042px;
+	opacity: 0.75;
+	background: #F58A07;
+	mix-blend-mode: multiply;
+	border-radius: 25px 25px 0px 0px;
+	z-index: 5;
+}
+
+.main-block__second-orange {
+	position: absolute;
+width: 155px;
+height: 241px;
+top: 548px;
+left: 1420px;
+background: #F58A07;
+mix-blend-mode: multiply;
+border-radius: 25px 25px 0px 0px;
+z-index: 3;
 }
 
 .main-block__body {
 	padding: 202px 0px 147px 0px;
 	position: relative;
-	z-index: 2;
+	z-index: 8;
 	max-width: 600px;
 }
 
@@ -238,7 +266,7 @@ body {
 	display: inline-flex;
 	align-items: center;
 	color: #4A5D69;
-
+	padding: 18px 0px 0px 0px;
 }
 
 .companies__first-company {
