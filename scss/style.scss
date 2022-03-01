@@ -80,12 +80,12 @@ body {
 
 .header__container {
 	display: flex;
-	min-height: 84px;
+	min-height: 80px;
 	align-items: center;
 }
 
 .header__logo {
-	margin: 27px 485px 28px 0px;
+	margin: 25px 485px 26px 0px;
 }
 
 @media (max-width: 991px) {
@@ -163,41 +163,75 @@ body {
 
 .main-block {
 	position: relative;
+	background: #DCEAF5;
 
 }
 
 .main-block__container {
+
 }
 
 .main-block__image {
-	background-image: url(/img/mainblock/cover.jpg);
-	background-size: cover;
+
 }
 
 .main-block__body {
-	background: #DCEAF5;
+	padding: 202px 0px 147px 1px;
+	position: relative;
+	z-index: 2;
+	max-width: 600px;
 }
 
 .main-block__title {
+	line-height: calc(72 / 64 * 100%);
+	letter-spacing: -2px;
+	font-size: 64px;
+	font-weight: 600;
+	color: #1D3444;
 }
 
 .main-block__text {
+	line-height: calc(30 / 18 * 100%);
+	font-size: 18px;
+	font-weight: 500;
+	color: #5b5b5b;
+	padding: 12px 0 0 0;
 }
 
 .main-block__buttons {
+	line-height: 17px;
+	text-transform: capitalize;
+	padding: 50px 0px 0px 0px;
 }
 
-.main-block__button {
+.main-block__first-button {
+	color: #fff;
+	background-color: #F58A07;
+	border-radius: 27px;
+	padding: 15px 31px 17px 32px;
 }
 
-.main-block__button-border {
+.main-block__second-button {
+	padding: 0px 0px 0px 37px;
+	color: #1D3444;
 }
 
-.main-block__achievement {
+.main-block__experience {
+	padding: 75px 0px 0px 0px;
 }
 
 .main-block__companies {
 }
+
+.companies__first-company {
+}
+
+.companies__second-company {
+}
+
+.companies__third-company {
+}
+
 
 // ---------------MAIN-BLOCK--------------------------------------
 
