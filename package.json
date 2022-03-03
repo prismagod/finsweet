@@ -1,0 +1,25 @@
+{
+  "name": "finsweet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prismagod/finsweet.git"
+  },
+  "author": "prisma_god",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prismagod/finsweet/issues"
+  },
+  "homepage": "https://github.com/prismagod/finsweet#readme",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0"
+  }
+}
