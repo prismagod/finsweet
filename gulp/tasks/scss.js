@@ -13,9 +13,9 @@ export const scss = () => {
 		.pipe(app.plugins.plumber(
 			app.plugins.notify.onError({
 				title: "SCSS",
-				message: "Error: <%= error.message %"
+				message: "Error: <%= error.message %>"
 			})))
-		.pipe(app.plugins.replace(/@img\//g, '../src/img/'))
+		.pipe(app.plugins.replace(/@img\//g, 'img/'))
 		.pipe(sass({
 			outputStyle: 'expanded',
 		}))
@@ -32,7 +32,7 @@ export const scss = () => {
 			cascade: true
 		}))
 		// Раскомментировать если нужно посмотреть на несжатый дубль файла стилей
-		// .pipe(app.gulp.dest(app.path.build.css))
+		.pipe(app.gulp.dest(app.path.build.css))
 		.pipe(cleanCss())
 		.pipe(rename({
 			extname: ".min.css"
