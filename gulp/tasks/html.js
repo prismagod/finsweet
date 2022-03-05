@@ -18,6 +18,7 @@ export const html = () => {
 				(webpHtmlNosvg()
 			)
 		)
+		)
 		.pipe(
 			app.plugins.if(
 				app.isBuild,

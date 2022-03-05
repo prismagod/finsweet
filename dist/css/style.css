@@ -353,7 +353,7 @@ body {
 
 @media (max-width: 991px) {
   .header__logo {
-    margin: 28px 250px 28px 0px;
+    margin: 28px 200px 28px 0px;
   }
 
   .main-block__image {
@@ -368,12 +368,12 @@ body {
 
 @media (max-width: 767px) {
   .header__logo {
-    margin: 28px 120px 28px 0px;
+    margin: 28px 100px 28px 0px;
   }
 }
 
 @media (max-width: 479px) {
   .header__logo {
-    margin: 27px 60px 28px 0px;
+    margin: 27px 50px 28px 0px;
   }
 }
