@@ -166,7 +166,7 @@ body {
 
 .main-block {
   position: relative;
-  background: #DCEAF5;
+  background: #dceaf5;
   min-height: 700px;
   z-index: -2;
 }
@@ -188,7 +188,7 @@ body {
   top: 42.5%;
   left: 20%;
   opacity: 0.75;
-  background: #F58A07;
+  background: #f58a07;
   mix-blend-mode: multiply;
   border-radius: 25px 25px 0px 0px;
   z-index: 2;
@@ -199,7 +199,7 @@ body {
   height: 241px;
   top: 62.6%;
   left: 60.3%;
-  background: #F58A07;
+  background: #f58a07;
   mix-blend-mode: multiply;
   border-radius: 25px 25px 0px 0px;
   z-index: -1;
@@ -215,7 +215,7 @@ body {
   letter-spacing: -2px;
   font-size: 64px;
   font-weight: 600;
-  color: #1D3444;
+  color: #1d3444;
 }
 .main-block__text {
   line-height: 166.6666666667%;
@@ -226,8 +226,9 @@ body {
 }
 .main-block__buttons {
   display: inline-flex;
-  flex-wrap: wrap;
-  line-height: 17px;
+  flex-wrap: nowrap;
+  text-align: center;
+  line-height: 150%;
   text-transform: capitalize;
   padding: 32px 0px 0px 0px;
 }
@@ -236,17 +237,17 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-color: #F58A07;
+  background-color: #f58a07;
   border-radius: 27px;
   min-height: 54px;
-  padding: 15px 31px 17px 32px;
+  padding: 5px 32px;
 }
 .main-block__second-button {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px 0px 0px 40px;
-  color: #1D3444;
+  color: #1d3444;
 }
 .main-block__experience {
   padding: 56px 0px 0px 0px;
@@ -258,7 +259,7 @@ body {
 .main-block__companies {
   display: inline-flex;
   align-items: center;
-  color: #4A5D69;
+  color: #4a5d69;
   padding: 18px 0px 0px 0px;
 }
 .main-block__companies_first-company {
@@ -293,5 +294,11 @@ body {
 
   .main-block__first-orange {
     display: none;
+  }
+}
+@media (max-width: 767) {
+  .main-block__buttons {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
