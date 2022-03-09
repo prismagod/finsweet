@@ -105,7 +105,7 @@ body {
 }
 
 .header {
-  background-color: #fff;
+  background-color: #ffffff;
   position: absolute;
   width: 100%;
   left: 0;
@@ -144,6 +144,8 @@ body {
 }
 .menu__link {
   font-size: 16px;
+  color: #394149;
+  line-height: 171.4285714286%;
 }
 .menu__list {
   display: inline-flex;
@@ -155,17 +157,13 @@ body {
 .menu__item:not(:last-child) {
   margin: 0px 32px 0px 0px;
 }
-.menu__link {
-  color: #394149;
-  line-height: 171.4285714286%;
-}
 
 .page {
   flex: 1 1 auto;
 }
 
 .main-block {
-  background-color: #dceaf5;
+  background-color: #DCEAF5;
   min-height: 700px;
   z-index: -2;
 }
@@ -204,7 +202,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #ffffff;
   background-color: #f58a07;
   border-radius: 27px;
   min-height: 54px;
@@ -260,42 +258,11 @@ body {
   right: -14%;
   z-index: 1;
 }
-.main-block__first-orange {
-  position: absolute;
-  width: 181px;
-  height: 370px;
-  bottom: 0;
-  right: 29.3%;
-  opacity: 0.75;
-  background: #f58a07;
-  mix-blend-mode: multiply;
-  border-radius: 25px 25px 0px 0px;
-  z-index: 2;
-}
-.main-block__second-orange {
-  position: absolute;
-  width: 155px;
-  height: 244px;
-  bottom: 0;
-  right: 2.4%;
-  background: #f58a07;
-  mix-blend-mode: multiply;
-  border-radius: 25px 25px 0px 0px;
-  z-index: 0;
-}
 
 @media (max-width: 991px) {
   .main-block__cover {
-    opacity: 0.4;
+    opacity: 0.3;
     width: auto;
-  }
-
-  .main-block__first-orange {
-    display: none;
-  }
-
-  .main-block__second-orange {
-    display: none;
   }
 }
 @media (max-width: 767px) {
@@ -348,4 +315,148 @@ body {
     flex: 1 1 auto;
     margin: 10px 0 0 0px;
   }
+}
+.opportunities__body {
+  min-height: 740px;
+  margin: 96px 0 164px 0;
+}
+.opportunities__title {
+  margin: 0px 0px 27px 0px;
+  max-width: 735px;
+  color: #1d3444;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+}
+.opportunities__text {
+  margin: 0 0 64px 0;
+  max-width: 735px;
+  color: #5b5b5b;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+.opportunities__section {
+  min-height: 447px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__block {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  max-width: 400px;
+  margin-bottom: 28px;
+}
+.section__block:not(:first-child) {
+  margin-left: 40px;
+}
+.section__title {
+  margin-top: 33px;
+  color: #0D1317;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+}
+.section__text {
+  margin-top: 17px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+.section__link {
+  margin-top: 24px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+}
+.section__link a {
+  color: #F58A07;
+}
+.section__link svg {
+  margin-left: 8px;
+}
+
+@media (max-width: 1250px) {
+  .opportunities__section {
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    align-items: center;
+  }
+  .opportunities__body {
+    margin: 32px 0 55px 0;
+  }
+}
+.solutions {
+  position: relative;
+  background-color: #DCEAF5;
+}
+.solutions__body {
+  min-height: 473px;
+  padding: 96px 0;
+}
+.solutions__text-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 64px;
+}
+.solutions__title {
+  margin-right: 15px;
+  max-width: 620px;
+  color: #1d3444;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+}
+.solutions__text {
+  margin-left: 15px;
+  max-width: 620px;
+  color: #0D1317;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+.solutions__section {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+}
+.solutions__block {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  min-height: 277px;
+  min-width: 401px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.solutions__block:not(:first-child) {
+  margin-left: 20px;
+}
+
+.block__icon {
+  margin: 50px 0 0 38px;
+}
+.block__title {
+  margin: 32px 0 0 38px;
+  color: #1d3444;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+}
+.block__text {
+  margin: 16px 26px 0 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(29, 52, 68, 0.8);
 }

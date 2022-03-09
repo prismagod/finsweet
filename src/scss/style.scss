@@ -1,25 +1,19 @@
-@import 'fonts';
+@import 'variables';
 
-// ---------------NORMALIZING------------------------------------
+@import 'fonts';
 
 @import 'reset';
 
-// ----------------DEFAULTS--------------------------------------
-
 @import 'defaults';
-
-// -----------------HEADER----------------------------------------
 
 @import 'header';
 
-// ------------------PAGE-----------------------------------------
-
 @import 'page';
-
-// ---------------MAIN-BLOCK--------------------------------------
 
 @import 'main-block';
 
-// -----------------FOOTER----------------------------------------
+@import 'opportunities';
+
+@import 'solutions';
 
 @import 'footer';

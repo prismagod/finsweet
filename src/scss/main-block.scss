@@ -1,5 +1,5 @@
 .main-block {
-	background-color: #dceaf5;
+	background-color: $light-blue;
 	min-height: 700px;
 	z-index: -2;
 	&__container {
@@ -16,13 +16,13 @@
 		letter-spacing: -2px;
 		font-size: 64px;
 		font-weight: 600;
-		color: #1d3444;
+		color: $dark-blue;
 	}
 	&__text {
 		line-height: calc(30 / 18 * 100%);
 		font-size: 18px;
 		font-weight: 500;
-		color: #5b5b5b;
+		color: $gray;
 		padding: 13px 0 0 0;
 	}
 	&__buttons {
@@ -37,7 +37,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		color: #fff;
+		color: $white;
 		background-color: #f58a07;
 		border-radius: 27px;
 		min-height: 54px;
@@ -48,7 +48,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		color: #1d3444;
+		color: $dark-blue;
 		margin: 0px 0px 0px 40px;
 	}
 	&__experience {
@@ -56,7 +56,7 @@
 		line-height: 30px;
 		font-size: 18px;
 		font-weight: 400;
-		color: rgba(57, 65, 73, 0.5);
+		color: $light-gray;
 	}
 	&__companies {
 		display: inline-flex;
@@ -100,41 +100,12 @@
 		right: -14%;
 		z-index: 1;
 	}
-	&__first-orange {
-		position: absolute;
-		width: 181px;
-		height: 370px;
-		bottom: 0;
-		right: 29.3%;
-		opacity: 0.75;
-		background: #f58a07;
-		mix-blend-mode: multiply;
-		border-radius: 25px 25px 0px 0px;
-		z-index: 2;
-	}
-	&__second-orange {
-		position: absolute;
-		width: 155px;
-		height: 244px;
-		bottom: 0;
-		right: 2.4%;
-		background: #f58a07;
-		mix-blend-mode: multiply;
-		border-radius: 25px 25px 0px 0px;
-		z-index: 0;
-	}
 }
 
 @media (max-width: 991px) {
 	.main-block__cover {
-		opacity: 0.4;
+		opacity: 0.3;
 		width: auto;
-	}
-	.main-block__first-orange {
-		display: none;
-	}
-	.main-block__second-orange {
-		display: none;
 	}
 }
 

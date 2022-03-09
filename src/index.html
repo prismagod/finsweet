@@ -9,7 +9,11 @@
 <body>
 	<div class="wrapper">
 		@@include('html/header.html', {})
-		@@include('html/home/page.html', {})
+		<main class="page">	
+			@@include('html/home/main-block.html', {})
+			@@include('html/home/opportunities.html', {})
+			@@include('html/home/solutions.html', {})
+		</main>
 		@@include('html/footer.html', {})
 	</div>
 
