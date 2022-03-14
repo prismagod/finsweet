@@ -32,7 +32,7 @@
 .section {
 	&__block {
 		display: flex;
-		flex: 1 1 auto;
+		flex: 0 1 auto;
 		flex-direction: column;
 		max-width: 400px;
 		margin-bottom: 28px;
@@ -68,6 +68,8 @@
 		margin-left: 8px;
 	}
 }
+
+//TODO доверстать адаптив дома
 
 @media (max-width: 1250px) {
 	.opportunities {

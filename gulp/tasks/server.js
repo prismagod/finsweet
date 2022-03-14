@@ -4,6 +4,7 @@ export const server = (done) => {
 		baseDir: `${app.path.build.html}`
 	},
 	notify: false,
-	port: 3000
+	port: 3000,
+	browser: 'msedge',
 	});
 }
